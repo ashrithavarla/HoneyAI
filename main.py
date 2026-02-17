@@ -16,7 +16,7 @@ def chat(query):
     global chatStr
     # print(chatStr)
 
-    chatStr += f"Ashritha: {query}\n Honey: "
+    chatStr += f"Aryan: {query}\n Honey: "
 
     response = ollama.chat(
         model='mistral',
